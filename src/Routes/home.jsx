@@ -5,7 +5,9 @@ import CategoryItem from '../components/category-items/category-items.component'
 const Home =() =>{
     return (
         
+        
         <div className="categories-container">
+
     
           {categories.map((category) => (
     
