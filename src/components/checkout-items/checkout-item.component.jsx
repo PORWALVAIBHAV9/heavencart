@@ -3,10 +3,12 @@ import {CartContext}  from '../../context/cart-open.context'
 import {useContext} from 'react'
 
 
+
 const CheckoutItems = ({cartItem})=>{
     const {name, quantity, price, imageUrl} = cartItem
     const { deleteItem, removeCartItems, addToCartItems } =useContext(CartContext)
     return(
+    
     <div className='checkout-item-container'>
         <div className='image-container'>
             <img src={imageUrl} alt="" />
@@ -17,9 +19,11 @@ const CheckoutItems = ({cartItem})=>{
         
         <span className='price'>{price}</span>
         <div className='remove-button' onClick={()=>{deleteItem(cartItem)}}>&#10005;</div>
-
+        
+        
 
     </div>
+
     )
 }
 

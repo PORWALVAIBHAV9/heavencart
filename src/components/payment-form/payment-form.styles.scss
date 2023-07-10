@@ -1,0 +1,32 @@
+.card-details{
+    width:300px;
+    margin: 100px;
+
+
+}
+
+.btn{
+    color:black;
+    background-color:white;
+    width:120px;
+    height:50px;
+    margin-left: 100px;
+}
+
+.btn:hover{
+    color:white;
+    background-color:black;
+
+}
+
+h2{
+    color: cadetblue;
+    margin-bottom: 60px;
+}
+
+.card-container{
+    margin:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
