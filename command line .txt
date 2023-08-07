@@ -1,0 +1,22 @@
+we always start with home diretory which is our computer 
+to reach home directory we use ~ sign 
+ls --  is used to list the conctent of current directory 
+pwd - is used to get the adress of current directory 
+cd foldername/  --is used to change directory or open a folder from the current directory(change directory)
+cd .. ---- is used to back out one folder .
+cd ~ --- is used to go direct home dirtectory direct 
+cd  /users/porwa  ---in this way we could direct reacch to any directory
+cd ../.. --this is use to exit more than one time 
+
+
+mkdir foldername ---i sused to make new folder (make directory)
+mkdir foder1 folder2 ---is used to make more than one  folder 
+mkdir folder/ inside folder  --in this way we could make first folder and folder inside that folder
+man ls ---is used to see the details of that command and flags inside it to do some manil=pulation within that command 
+ls -a ---this way we use flags to manipulate commands 
+
+touch hubby.js hubby.html hubby.txt hubby.png -----is used to new files 
+rm  -- is used to delete files 
+rmdir ---- is used to delete only empty folders 
+rm -rf foldername ---uis used to delete any folder (rf = recursive force)
+
